@@ -1,0 +1,50 @@
+/* Chrome Extension to give a  dark mode theme to Wikipedia */
+
+
+a {
+    color: lightblue !important;
+}
+
+body, div, #content {
+    background-color:#282928 !important;
+    color: white !important;
+    text-decoration: none;
+  }
+  
+.mw-page-title-main, .mw-headline, #p-logo, h1, h2, p {
+    color: white !important;
+}
+
+#mw-head {
+    background-color: #141414 !important;
+}
+
+#content {
+    background-color: #282928 !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.mw-page-title-main, .vector-menu-heading-label, .mw-headline, span.tocnumber 
+{
+    color: white !important;
+}
+
+.thumbinner, #ca-nstab-main, #ca-talk > a, #ca-view, #ca-viewsource > a, #ca-edit > a, #ca-history > a, .mw-parser-output .navbox-group, .navbox-title
+ {
+    background-color: #282928 !important;
+ }
+
+.infobox-caption, #toc, table, td, tr, th {
+    background-color: #282928 !important;
+    color: white !important;
+}
+
+#From_today\'s_featured_article, #In_the_news, #Did_you_know_\.\.\., #On_this_day, #Today\'s_featured_picture, #Other_areas_of_Wikipedia, #Wikipedia\'s_sister_projects, #Wikipedia_languages {
+    color: black !important;
+}
+
+#mw-content-text > div.mw-parser-output > ul > li > code {
+    background-color: #434743;
+    color: lightgreen;
+}

@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+   
+    "name": "DarkPedia",
+    "version": "1.0.0",
+    "description": "Dark Mode for Wikipedia",
+    "author": "hass3n9918@gmail.com",
+    "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "matches": ["https://*.wikipedia.org/*"]
+    }]
+   
+  }
